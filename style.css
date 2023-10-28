@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Relative", sans-serif;    
+    overflow: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #191919;
+    overflow: hidden;
+}
+
+/* main::before{
+    height: 1.3rem;
+    width: 100%;
+    content: " ";
+    background: transparent linear-gradient(180deg,rgba(0,0,0,.1882352941),transparent) 0 0 no-repeat padding-box;
+    position: absolute;
+    bottom: -1.3rem;
+    left: 0;
+} */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.logo-text {
+    color: white;
+    padding-left: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Relative";
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    font-size: 16px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul li {
+    color: #a7a7a9;
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+.button {
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    gap: 30px;
+    font-size: 12px;
+    align-items: center;
+}
+
+.trade-btn {
+    width: 60px;
+    height: 35px;
+    background-color: #3eb489;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trade-btn:hover {
+    background-color: #3eb489ad;
+    color: white;
+}
+
+.wallet-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 35px;
+    width: 140px;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.247);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.wallet-btn:hover {
+    background-color: rgba(255, 255, 255, 0.144);
+}
+
+.side-menu {
+    width: 70px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-right: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.247);
+    border-radius: 5px;
+}
+
+.side-menu span {
+    background-color: rgba(255, 255, 255, 0.397);
+    width: 1px;
+    height: 22px;
+    gap: 2px;
+}
+
+.side-btn svg {
+    size: 10px;
+}
+
+main {
+    width: 100%;
+    background-color: #191919;
+    color: white;
+   
+    /* border-bottom: 1px solid white; */
+}
+.main-body{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.233);
+    font-size: 16px;
+}
+.main-content {
+    margin-left: 35px;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: 600;
+    width: 528px;
+    padding-top: 80px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: "relative", sans-serif;
+
+}
+
+.about-main {
+    margin-left: 50px;
+    width: 370px;
+    line-height: 26px;
+    color: #cecece;
+    font-size: 1.2rem
+}
+
+.main-body button {
+    /* margin-left: 50px; */
+    margin: 20px 50px;
+    border: none;
+    width: 130px;
+    height: 34px;
+    background-color: #3eb489;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-body button:hover {
+    background-color: #30916dd2;
+    color: white;
+}
+
+.content-box {
+    width: 100%;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 140px;
+    margin: 0 auto;
+    padding-top: 70px;
+    font-size: 16px;
+
+}
+
+.container {
+    width: 330px;
+    height: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.main-body2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+
+.sm-cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding-right: 40px;
+}
+
+.fix-cnt0 {
+    margin-left: 30px;
+}
+
+.fix-cnt {
+    margin-right: 64px;
+}
+
+.img-cnt h2 {
+    font-size: 1.2rem;
+}
+
+.sm-cnt p {
+    width: 270px;
+    color: #a7a7a9;
+    line-height: 22px;
+}
+    h1{
+        padding-top: 140px;
+        padding-bottom: 40px;
+        margin-left: 80px;
+        width: 360px;
+        font-size: 1rem;
+    }
+.main-body3 {
+    /* padding-top: 140px; */
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.226);
+    padding-bottom: 50px;
+}
+.f-cnt{
+    border: 1px solid rgba(255, 255, 255, 0.199);
+    width: 533px;
+    border-radius: 5px;
+}
+
+.img-row{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.main-body3 p{
+    margin-bottom: 15px;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.main-body3 h3{
+    padding-top: 10px;
+    margin-left: 15px;
+    font-size: 1rem;
+    color: #cecece;
+}
+
+.btn{
+    padding-top: 40px;
+    margin-left: 15px;
+    gap: 20px;
+    height: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.btn-primary{
+    width: 65px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3eb489;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: #0e6142;
+}
+
+.btn-primary1{
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid rgba(255, 255, 255, 0.151);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-primary1:hover{
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+footer{
+    width: 100%;
+    background-color: #191919;
+    font-size: 14px;
+}
+
+.img-bx{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.logo-row{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-row svg{
+    margin-top: 25px;
+    font-size: 2rem;
+    width: 95px;
+    fill: #a7a7a967;
+    cursor: pointer;
+
+}
+
+.logo-row svg:hover{
+    fill: white;
+}
+
+.about-row{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 35px;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 1rem;
+}
+
+.about-row span{
+    cursor: pointer;
+    font-weight: 300;
+}
+

@@ -1,0 +1,68 @@
+@media (max-width: 1060px) {
+   
+    header{
+        font-size: 16px;
+    }
+    .logo{
+        margin: 0;
+    }
+    .logo-text{
+        font-size: 1rem;
+    }
+    header nav {
+        display: none;
+    }
+    
+    .main-body{
+        font-size: 16px;
+        overflow-x: hidden;
+    }
+    .main-title{
+        font-size: 1rem;
+    }
+    .main-content{
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .content-box {
+        flex-wrap: wrap;
+    }
+    .main-body2{
+        flex-flow: wrap;
+    }
+    .big-text{
+        overflow-y: hidden;
+    }
+    .sm-cnt{
+        margin:30px 0;
+    }
+   
+    .main-body3{
+        flex-flow: wrap;
+    }
+    .f-cnt{
+        margin: 20px 0;
+        overflow-y: hidden;
+    }
+    .btn{
+        overflow-y: hidden;
+    }
+    .stats-cnt  {
+        flex-flow: wrap;
+        display: flex;
+    }
+    .last-cnt{
+        display: flex;
+        flex-direction: column;
+        height: 1000px !important;
+    }
+
+    .main-bx{
+        flex-flow: column;
+    }
+    footer {
+        flex-direction: column;
+        flex-flow: column;
+        display: flex;
+    }
+}
