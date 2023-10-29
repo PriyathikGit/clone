@@ -6,6 +6,10 @@
     .logo{
         margin: 0;
     }
+
+    header .logo a{
+        overflow: hidden;
+    }
     .logo-text{
         font-size: 1rem;
     }
@@ -20,6 +24,15 @@
     .main-title{
         font-size: 1rem;
     }
+    .about-main{
+        margin: 0 auto;
+        padding: 0 13px;
+    }
+    .container{
+        padding: 0;
+    }
+
+
     .main-content{
         margin: 0 auto;
         overflow-x: hidden;
@@ -29,6 +42,10 @@
     }
     .main-body2{
         flex-flow: wrap;
+    }
+     h1{
+        text-align: center;
+        margin: 0;
     }
     .big-text{
         overflow-y: hidden;
@@ -43,6 +60,7 @@
     .f-cnt{
         margin: 20px 0;
         overflow-y: hidden;
+        width: calc(100% - 15px);
     }
     .btn{
         overflow-y: hidden;
@@ -51,14 +69,18 @@
         flex-flow: wrap;
         display: flex;
     }
+    .stat-cnt1{
+        margin: 10px 0;
+    }
+
     .last-cnt{
         display: flex;
         flex-direction: column;
         height: 1000px !important;
     }
-
     .main-bx{
         flex-flow: column;
+        
     }
     footer {
         flex-direction: column;
