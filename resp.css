@@ -1,87 +1,175 @@
 @media (max-width: 1060px) {
-   
-    header{
+
+    header {
         font-size: 16px;
     }
-    .logo{
+
+    .logo {
         margin: 0;
     }
 
-    header .logo a{
+    .ham-menu {
+        display: block;
+        padding-left: 22px;
         overflow: hidden;
     }
-    .logo-text{
+
+    .cross-icon {
+        display: block;
+        position: absolute;
+        z-index: 1000;
+        left: 14px;
+        top: 13px;
+    }
+
+    .cross-icon svg {
+        height: 28px;
+    }
+
+    header .logo a {
+        overflow: hidden;
+    }
+
+    .logo-text {
+        font-size: 0.9rem;
+    }
+
+    header nav {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        width: 200px;
+        height: 100vh;
+        backdrop-filter: blur(24px);
+        transition: 0.2s;
+        padding: 0;
+        margin: 0;
+        transform: translateX(0%);
+        animation: open 1s ease;
+
+    }
+
+    @keyframes open {
+        0% {
+            transform: translateX(0%)
+        }
+
+        100% {
+            transform: translateX(5%)
+        }
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 40px 2px;
+    }
+
+    header nav ul li {
+        color: rgba(255, 255, 255, 0.568);
+        margin: 10px 0;
         font-size: 1rem;
     }
-    header nav {
-        display: none;
-    }
-    
-    .main-body{
+
+    .main-body {
         font-size: 16px;
         overflow-x: hidden;
     }
-    .main-title{
+
+    .main-title {
         font-size: 1rem;
     }
-    .about-main{
+
+    .about-main {
         margin: 0 auto;
         padding: 0 13px;
     }
-    .container{
+
+    .container {
         padding: 0;
     }
 
+    .wallet-btn {
+        margin: 15px;
+    }
 
-    .main-content{
+    .button {
+        gap: 0;
+    }
+
+    .main-content {
         margin: 0 auto;
         overflow-x: hidden;
     }
+
     .content-box {
         flex-wrap: wrap;
     }
-    .main-body2{
+
+    .main-body2 {
         flex-flow: wrap;
     }
-     h1{
+
+    h1 {
         text-align: center;
         margin: 0;
     }
-    .big-text{
+
+    .big-text {
         overflow-y: hidden;
     }
-    .sm-cnt{
-        margin:30px 0;
+
+    .sm-cnt {
+        margin: 30px 0;
     }
-   
-    .main-body3{
+
+    .side-menu {
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    .main-body3 {
         flex-flow: wrap;
     }
-    .f-cnt{
+
+    .f-cnt {
         margin: 20px 0;
         overflow-y: hidden;
         width: calc(100% - 15px);
     }
-    .btn{
+
+    .btn {
         overflow-y: hidden;
     }
-    .stats-cnt  {
+
+    .stats-cnt {
         flex-flow: wrap;
         display: flex;
     }
-    .stat-cnt1{
+
+    .stat-cnt1 {
         margin: 10px 0;
     }
-
-    .last-cnt{
+    .bt-0{
+        padding: 0 !important;
+    }
+    .last-cnt {
+        width: calc(100% - 20px);
         display: flex;
         flex-direction: column;
         height: 1000px !important;
     }
-    .main-bx{
+
+    .main-bx {
         flex-flow: column;
-        
+
     }
+
     footer {
         flex-direction: column;
         flex-flow: column;

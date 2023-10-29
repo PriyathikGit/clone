@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Relative", sans-serif;    
+    font-family: "Relative", sans-serif;
     overflow: auto;
 }
 
@@ -14,6 +14,15 @@ header {
     height: 10vh;
     background-color: #191919;
     overflow: hidden;
+}
+.side-navbar{
+    display: none;
+}
+.ham-menu {
+    display: none;
+}
+.cross-icon{
+    display: none;
 }
 
 /* main::before{
@@ -30,6 +39,11 @@ header {
     justify-content: center;
     align-items: center;
     margin-left: 25px;
+}
+
+.logo img{
+    position: relative;
+    left: 10px;
 }
 
 .logo-text {
@@ -65,7 +79,7 @@ ul li {
     overflow: hidden;
 }
 
-ul a{
+ul a {
     text-decoration: none;
 }
 
@@ -140,13 +154,15 @@ main {
     width: 100%;
     background-color: #191919;
     color: white;
-   
+
     /* border-bottom: 1px solid white; */
 }
-.main-body{
+
+.main-body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.233);
     font-size: 16px;
 }
+
 .main-content {
     margin-left: 35px;
 }
@@ -269,13 +285,15 @@ main {
     color: #a7a7a9;
     line-height: 22px;
 }
-    h1{
-        padding-top: 140px;
-        padding-bottom: 40px;
-        margin-left: 80px;
-        width: 360px;
-        font-size: 1rem;
-    }
+
+h1 {
+    padding-top: 140px;
+    padding-bottom: 40px;
+    margin-left: 80px;
+    width: 360px;
+    font-size: 1rem;
+}
+
 .main-body3 {
     /* padding-top: 140px; */
     display: flex;
@@ -285,13 +303,14 @@ main {
     border-bottom: 1px solid rgba(255, 255, 255, 0.226);
     padding-bottom: 50px;
 }
-.f-cnt{
+
+.f-cnt {
     border: 1px solid rgba(255, 255, 255, 0.199);
     width: 533px;
     border-radius: 5px;
 }
 
-.img-row{
+.img-row {
     padding-top: 10px;
     display: flex;
     align-items: center;
@@ -299,20 +318,21 @@ main {
     margin-bottom: 15px;
     margin-left: 15px;
 }
-.main-body3 p{
+
+.main-body3 p {
     margin-bottom: 15px;
     font-size: 1rem;
     margin-left: 15px;
 }
 
-.main-body3 h3{
+.main-body3 h3 {
     padding-top: 10px;
     margin-left: 15px;
     font-size: 1rem;
     color: #cecece;
 }
 
-.btn{
+.btn {
     padding-top: 40px;
     margin-left: 15px;
     gap: 20px;
@@ -323,7 +343,7 @@ main {
     overflow-y: hidden;
 }
 
-.btn-primary{
+.btn-primary {
     width: 65px;
     height: 35px;
     display: flex;
@@ -335,11 +355,11 @@ main {
     cursor: pointer;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     background-color: #0e6142;
 }
 
-.btn-primary1{
+.btn-primary1 {
     width: 100px;
     height: 35px;
     display: flex;
@@ -350,17 +370,18 @@ main {
     border-radius: 5px;
     cursor: pointer;
 }
-.btn-primary1:hover{
+
+.btn-primary1:hover {
     background-color: rgba(255, 255, 255, 0.075);
 }
 
-footer{
+footer {
     width: 100%;
     background-color: #191919;
     font-size: 14px;
 }
 
-.img-bx{
+.img-bx {
     display: flex;
     color: white;
     align-items: center;
@@ -368,13 +389,13 @@ footer{
     padding-top: 30px;
 }
 
-.logo-row{
+.logo-row {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.logo-row svg{
+.logo-row svg {
     margin-top: 25px;
     font-size: 2rem;
     width: 95px;
@@ -383,11 +404,11 @@ footer{
 
 }
 
-.logo-row svg:hover{
+.logo-row svg:hover {
     fill: white;
 }
 
-.about-row{
+.about-row {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -397,8 +418,7 @@ footer{
     font-size: 1rem;
 }
 
-.about-row span{
+.about-row span {
     cursor: pointer;
     font-weight: 300;
 }
-
