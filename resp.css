@@ -33,8 +33,9 @@
     .logo-text {
         font-size: 0.9rem;
     }
-
+    
     header nav {
+        display: none;
         position: absolute;
         left: 0;
         top: 0;
@@ -47,7 +48,6 @@
         margin: 0;
         transform: translateX(0%);
         animation: open 1s ease;
-
     }
 
     @keyframes open {
@@ -169,10 +169,29 @@
         flex-flow: column;
 
     }
-
+    .main-title-box{
+        padding: 0px 33px !important;
+        margin-top: 25px;
+    }
+    .main-container{
+        flex-flow: column;
+        margin: 0 auto;
+    }
+    .sm-pg{
+        height: 50px !important;
+    }
+    .container1{
+        width:70% !important;
+        margin: 0 auto !important;
+        margin-bottom: 20px !important;
+    }
+    
     footer {
         flex-direction: column;
         flex-flow: column;
         display: flex;
+    }
+    .about-row {
+        margin: 15px;
     }
 }

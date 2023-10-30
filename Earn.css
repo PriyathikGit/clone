@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-body{
+    width: 100%;
+   background-color: #191919;
+   font-size: 16px;
+   padding-bottom: 28px;
+}
+
+.main-title-box{
+    padding: 30px 83px;
+}
+
+.main-title2{
+    padding: 0 83px;
+    margin-top: 12px;
+}
+.sm-pg{
+    margin-top: 8px;
+    line-height: 18px;
+    height: 40px;
+    display: block;
+    overflow: hidden;
+}
+.main-title h2{
+    font-size: 2.5rem;
+}
+
+.main-title span {
+    font-size: 1rem;
+    color: #a7a7a9;
+    margin-bottom: 10px;
+}
+.main-container{
+    display: flex;
+    
+    justify-content: space-evenly;
+    padding: 25px 0;
+    color: #a7a7a9;
+}
+.container1{
+    width: 550px;
+    border: 1px solid #a7a7a9;
+    font-size: 13px;
+}
+
+.sec-cnt{
+    padding-bottom: 66px;
+}
+
+.table-title{
+    border-bottom: 1px solid;
+    padding: 15px 8px;
+    font-size: 1.2rem;
+}
+
+.content1{
+    padding: 8px 8px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #a7a7a9;
+}
+.content1 span{
+    padding: 8px 0;
+}
+
+.text-feild{
+    display: flex;
+    flex-direction: column;
+}
+.price-field{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.btn-field{
+    height: 70px;
+    overflow: hidden;
+}
+
+.main-btn{
+    margin: 24px;
+    width: 110px;
+    height: 30px;
+    background-color: #3eb489;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: white;
+}

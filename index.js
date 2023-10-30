@@ -1,7 +1,8 @@
 const varBtn = document.getElementById("open-btn")
 const closeBtn = document.getElementById("close-btn")
 
-document.querySelector("nav").style.display = "none";
+
+// document.querySelector("nav").style.display = "block";
 closeBtn.style.display = "none";
 
 
