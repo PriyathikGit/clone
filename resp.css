@@ -14,13 +14,14 @@
         overflow: hidden;
     }
 
-    .cross-icon {
+ .cross-icon {
         display: block;
         position: absolute;
         z-index: 1000;
         left: 14px;
         top: 13px;
     }
+    
 
     .cross-icon svg {
         height: 28px;
@@ -33,7 +34,7 @@
     .logo-text {
         font-size: 0.9rem;
     }
-    
+
     header nav {
         display: none;
         position: absolute;
@@ -52,13 +53,17 @@
 
     @keyframes open {
         0% {
-            transform: translateX(0%)
+            transform: translateX(-100%);
+            opacity: 0;
         }
-
+    
         100% {
-            transform: translateX(5%)
+            transform: translateX(0%);
+            opacity: 1;
         }
     }
+
+   
 
     nav ul {
         display: flex;
@@ -155,9 +160,11 @@
     .stat-cnt1 {
         margin: 10px 0;
     }
-    .bt-0{
+
+    .bt-0 {
         padding: 0 !important;
     }
+
     .last-cnt {
         width: calc(100% - 20px);
         display: flex;
@@ -169,28 +176,33 @@
         flex-flow: column;
 
     }
-    .main-title-box{
+
+    .main-title-box {
         padding: 0px 33px !important;
         margin-top: 25px;
     }
-    .main-container{
+
+    .main-container {
         flex-flow: column;
         margin: 0 auto;
     }
-    .sm-pg{
+
+    .sm-pg {
         height: 50px !important;
     }
-    .container1{
-        width:70% !important;
+
+    .container1 {
+        width: 70% !important;
         margin: 0 auto !important;
         margin-bottom: 20px !important;
     }
-    
+
     footer {
         flex-direction: column;
         flex-flow: column;
         display: flex;
     }
+
     .about-row {
         margin: 15px;
     }
