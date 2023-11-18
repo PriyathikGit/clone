@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Romi Finance</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="resp.css">
-    <link rel="stylesheet" href="dash.css">
+    <link rel="stylesheet" href="login.css">
 </head>
+
 <body>
     <header>
-        <div class="ham-menu" id="open-btn">
+         <div class="ham-menu" id="open-btn">
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
         </div>
         <div class="cross-icon" id="close-btn">
             <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
         </div>
         <div class="logo">
-            <a href="/" style="overflow: hidden;"><img src="Logo/New Logo.png" alt="" width="50px"></a>
+            <img src="Logo/New Logo.png" alt="" width="50px" style="overflow: hidden; "">
             <div class="logo-text">
                 Romi Finance
             </div>
@@ -64,186 +66,38 @@
         </div>
     </header>
     <main>
-        <div class="db-main0">
-            <div class="bt-0">
-                <div class="logo-bx">
-                    <span style="font-size: 2rem;">Stats</span>
-                    <img src="Logo/logo0.svg" alt="" width="40px">
-                </div>
-                <span class="sm-txt">Ethereum Total Stats start from 06 Jan 2022.
-                    For detailed stats:</span>
-            </div>
-                <div class="stats-cnt">
-                    <div class="stat-cnt1">
-                        <span class="title"><span>Overview</span></span>
-                        <div class="over-stats-row">
-                            <div class="data">
-                                <span>AUM</span>
-                                <span>$34</span>
-                            </div>
-                            <div class="data">
-                                <span>$ZLP Pool</span>
-                                <span>$0</span>
-                            </div>
-                            <div class="data">
-                                <span>24h Volume</span>
-                                <span>$0</span>
-                            </div>
-                                <div class="data">
-                                    <span>Long Positions</span>
-                                    <span>$0</span>
-                                </div>
-                                <div class="data">
-                                    <span>Short Positions</span>
-                                    <span>$0</span>
-                                </div>
+        <section>
+            <div class="form-box">
+                <div class="form-value">
+                    <form action="">
+                        <h2>Login</h2>
+                        <div class="inputbox">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input type="email" required>
+                            <label for="">Email</label>
                         </div>
-                    </div>
-                    <div class="stat-cnt1">
-                        <div class="title"><span>Total stats</span></div>
-                        <div class="total-stats-row">
-                        <div class="data">
-                            <span>Total Fees</span>
-                            <span>$34</span>
+                        <div class="inputbox">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" maxlength="10" required>
+                            <label for="">Password</label>
                         </div>
-                        <div class="data">
-                            <span>Total Volume</span>
-                            <span>$0</span>
+                        <div class="forget">
+                            <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
+                          
                         </div>
-                        <div class="data">
-                            <span>Floor Price Fund</span>
-                            <span>$632,251</span>
+                        <button>Log in</button>
+                        <div class="register">
+                            <p>Don't have a account <a href="#">Register</a></p>
                         </div>
-                    </div>
-                </div>
-        </div>
-        </div>
-        <div class="db-main0">
-            <div class="bt-0">
-                <div class="logo-bx">
-                    <span style="font-size: 2rem;">Stats</span>
-                    <img src="Logo/logo0.svg" alt="" width="40px">
-                </div>
-                <span class="sm-txt">Ethereum Total Stats start from 06 Jan 2022.
-                    For detailed stats:</span>
-            </div>
-                <div class="stats-cnt">
-                    <div class="stat-cnt1">
-                        <span class="title"><span>Overview</span></span>
-                        <div class="over-stats-row">
-                            <div class="data">
-                                <span>AUM</span>
-                                <span>$34</span>
-                            </div>
-                            <div class="data">
-                                <span>$ZLP Pool</span>
-                                <span>$0</span>
-                            </div>
-                            <div class="data">
-                                <span>24h Volume</span>
-                                <span>$0</span>
-                            </div>
-                                <div class="data">
-                                    <span>Long Positions</span>
-                                    <span>$0</span>
-                                </div>
-                                <div class="data">
-                                    <span>Short Positions</span>
-                                    <span>$0</span>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="stat-cnt1">
-                        <div class="title"><span>Total stats</span></div>
-                        <div class="total-stats-row">
-                        <div class="data">
-                            <span>Total Fees</span>
-                            <span>$34</span>
-                        </div>
-                        <div class="data">
-                            <span>Total Volume</span>
-                            <span>$0</span>
-                        </div>
-                        <div class="data">
-                            <span>Floor Price Fund</span>
-                            <span>$632,251</span>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        </div>
-        <div class="last-cnt">
-            <div class="title-box">
-                <div class="lst-bx">
-                    <span>$ZLP Index Composition</span>
-                    <img src="Logo/logo0.svg" alt="">
-                </div>
-                
-            </div>
-            <div class="main-bx">
-            <div class="box1">
-                <div class="bx-title">
-                    <div class="sm-text">Token</div> 
-                <div class="data-box">
-                    <span>Ethereum</span>
-                    <span>Wrapped Bitcoin</span>
-                    <span>Ape Coin</span>
-                    <span>USD Coin</span>
+                    </form>
                 </div>
             </div>
-            </div>
-            <div class="box1">
-                <div class="bx-title">
-                   <div class="sm-text">price</div>  
-                <div class="data-box">
-                <span>$1,780.71</span>
-                <span>$34,034.00</span>
-                <span>$1.34</span>
-                <span>$1.00</span>
-            </div>
-            </div>
-            </div>
-            <div class="box1">
-                <div class="bx-title">
-                   <div class="sm-text">POOL</div>  
-                    <div class="data-box">
-                        <span>$19</span>
-                        <span>$0</span>
-                        <span>$0</span>
-                        <span>$14</span>
-                    </div>
-                </div>
-            </div>
-            <div class="box1">
-                <div class="bx-title">
-                    <div class="sm-text">WEIGHT</div> 
-                <div class="data-box">
-
-                    <span>50.49% / 25.00%</span>
-                    <span>0.00% / 25.00%</span>
-                    <span>0.00% / 25.00%</span>
-                    <span>	49.50% / 25.00%</span>
-                </div>
-            </div>
-            </div>
-            <div class="box1">
-                <div class="bx-title">
-                    <div class="sm-text">UTILIZATION</div> 
-                    <div class="data-box">
-                        <span>0.00%</span>
-                        <span>0.00%</span>
-                        <span>0.00%</span>
-                        <span>0.00%</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
+        </section>
     </main>
     <footer>
         <div class="footer-cnt">
             <div class="img-bx">
-                <img src="Logo/New Logo.png" alt="" width="50px">
+                <img src="/Logo/New Logo.png" alt="" width="50px">
                 <h2>Romi Finance</h2>
             </div>
             <div class="logo-row">
@@ -262,4 +116,5 @@
     </footer>
     <script src="index.js"></script>
 </body>
+
 </html>

@@ -29,3 +29,16 @@ closeBtn.addEventListener("click", (e) => {
         navBar.style.display = "block";
     }
 })
+
+document.getElementById('homeBtn').addEventListener('click',()=>{
+    window.location.href ="index.html"
+})
+document.getElementById('dashBtn').addEventListener('click',()=>{
+    window.location.href ="Dashboard.html"
+})
+document.getElementById('earnBtn').addEventListener('click',()=>{
+    window.location.href ="Earn.html"
+})
+document.getElementById('loginBtn').addEventListener('click',()=>{
+    window.location.href ="Loginpage.html"
+})
